@@ -1,0 +1,101 @@
+.categories {
+    margin: 0.5rem auto;
+    width: 85%;
+}
+.categories ul{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ /* width: 80%; */
+ /* overflow-x: scroll; */
+ height: fit-content;
+ /* overflow: scroll; */
+}
+
+.categories ul li{
+   
+    margin: 0.2rem 0.2rem;
+    padding: 0.5rem;
+    background-color: rgba(46, 46, 46, 0.141);
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-family: sans-serif;
+   
+}
+
+
+.categories  button{
+    color: rgb(233, 233, 233);
+ /* background-color: #282f32; */
+ /* background-color: dodgerblue; */
+ background-color: #0072ec;
+ font-family: sans-serif;
+ font-weight: bold;
+ font-size: 0.9rem;
+ border: none;
+ border-radius: 4px;
+ margin:0.5 0;
+  padding: 0.6rem 3.2rem;
+ cursor: pointer;
+}
+.products  button{
+    color: rgb(233, 233, 233);
+ /* background-color: #282f32; */
+ /* background-color: dodgerblue; */
+ background-color: #0072ec;
+ font-family: sans-serif;
+ font-weight: bold;
+ font-size: 0.9rem;
+ border: none;
+ border-radius: 4px;
+ margin: 0;
+  padding: 0.6rem 3.2rem;
+ cursor: pointer;
+}
+
+
+.categories h2{
+    font-family: sans-serif;
+
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.products h2{
+    font-family: sans-serif;
+
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.products{
+    
+    margin: 0.5rem auto;
+    width: 85%;
+
+}
+
+
+.categorycontainer{
+    margin-bottom: 4rem;
+}
+
+.loading{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+    text-align: center;
+}
+
+.loading h2{
+    margin: 2rem auto;
+    width: 100%;
+    position: fixed;
+    left: 8%;
+    top: 40%;
+    color: rgb(38, 40, 47);
+    font-family: sans-serif ;
+}
+
+

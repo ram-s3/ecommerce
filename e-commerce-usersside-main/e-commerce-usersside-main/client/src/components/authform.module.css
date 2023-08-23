@@ -1,0 +1,23 @@
+.authform{
+    width: 25rem;
+    height: 30rem;
+    background-color: rgb(4, 110, 4);
+    margin: 5rem auto;
+    margin-top: 5rem;
+    position: absolute;
+    right: 35%;
+margin-left: 5rem;
+    
+}
+
+.authform label,input{
+    margin: 0.5rem auto;
+}
+
+.authform label{
+    margin-left: 5rem;
+}
+
+.authform input{
+    margin-left: 5rem;
+}

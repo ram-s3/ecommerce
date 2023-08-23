@@ -1,0 +1,15 @@
+database - furniture-shop-db
+collections 
+-sofa
+-beds
+-tables
+-chairs
+
+sofa - schema - images, noofseats, color, price , ratings, warranty, washable or not,description.\
+
+beds - schema - images, type(single or double), size(dimensions -(cmxcm)) , color, price, ratings, description.
+
+tables - schema - images, type(cofee table, study table etc,) , color, ratings, price, description, dimensions(cmxcm)
+
+
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam repudiandae, quo optio, ipsam iste, ad minus porro a atque quisquam ducimus earum laudantiushowm tempora? Dolor, esse. Qui, delectus. Voluptas, beatae?

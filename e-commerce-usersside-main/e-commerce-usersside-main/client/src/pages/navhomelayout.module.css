@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    height: 4rem;
+    width: 90%;
+    /* box-shadow: 0px 0.2px 2px black ; */
+    background-color: white;
+    border: none;
+}
+
+main{
+    overflow: visible;
+    margin-top: 4rem;
+}

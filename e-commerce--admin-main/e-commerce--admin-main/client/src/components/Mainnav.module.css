@@ -1,0 +1,35 @@
+.active{
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+.products{
+    width: 100%;
+}
+
+.products ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* height: 65vh; */
+    /* overflow: scroll; */
+    
+}
+
+.products li{
+    margin: 1rem 2rem;
+    width: 20rem;
+}
+.products li a{
+    /* background-color: rgb(61, 61, 204); */
+    background-color: #0072ec;
+    padding: 0.5rem 1rem ;
+}
+.products li button{
+
+    padding: 0.5rem 1rem ;
+
+}
+
